@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html lnag = "ko">
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>간단한 소개 화면 만들기</title>
+        <style>
+            .container{
+                width: 80%;
+                height: 300px;
+                margin: 0;
+                display: flex; 
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .etc{
+                background-color: #00C3C1; 
+                padding: 20px; 
+                margin:0;
+                width: 100%-800px;
+                height:300px;
+                display: inline-block;
+                border-radius: 10px 0px 0px 10px;
+                text-align: center;
+            }
+            .title_1{
+                color:black;
+                font-size: 30px; font-weight: bold; 
+            }
+            .sub-title_1{
+                color: #9298B1;
+                font-size: 20px; font-weight: bold; 
+            }
+            .link a{
+                color: whitesmoke; 
+                text-decoration: none;
+            }
+            .link a:hover{
+                background-color:black;
+            }
+            .body{
+                background-color: #92b8b1; 
+                padding: 20px;
+                margin: 0;
+                width: 800px;
+                height:300px;
+                position: relative; 
+                display: inline-block;
+                border-radius: 0px 10px 10px 0px;
+                overflow: auto;
+            }
+            .title_2{
+                color:black; 
+                font-size: 30px; font-weight: bold;  
+            }
+            .subtitle_2{
+                color: black;
+                font-size: 25px;
+            }
+            .button_apply{
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                border-radius: 5px;
+                width: 80px;
+                height: 30px;
+            }
+            .button_apply:active{
+                background-color:black;
+                color:white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <section class="etc">
+                <img src="../이미지/오즈.png" alt="배너" width="100">
+                <div class="title_1">
+                    <p>오즈 코딩스쿨</p> 
+                </div>
+                <div class="sub-title_1">
+                    <p><em>🏴차세대🏳️</em></p> 
+                    <p>'디지털 노마더' 양성학교</p>
+                </div>
+                <div class="link">
+                    <a href="https://edu.magicoding.io/#/app/myCourse" 
+                    class="beginer">
+                        👉🏻코딩 마법학교 </a>
+                </div>
+                <div class="link">
+                    <a href="https://ozcodingschool.com/ozcoding/startupcamp"
+                     class="mid-level">
+                        👉🏻초격차 캠프 </a>
+                </div>
+            </section>
+            <section class="body">
+                <div class="title_2">초격차 캠프 :D</div>
+                <br>
+                <div class="sub-title_2"><strong>with AWS</strong> 
+                'AWS와 함께하는 웹개발 거듭나기'</div>
+                <div> 
+                   <img src="../이미지/초격차.png" alt="이미지" width="300">
+                </div>
+                <div> 
+                    <ul>
+                        <li class="1">백엔드 코스</li>
+                        <li class="2">프론트엔드 코스</li>
+                        <li class="3">나에게 맞는 코스 사전상담</li>
+                        <li class=="4">멘토링과 채용연계</li>
+                    </ul>
+                </div>
+                <button class="button_apply">신청하기</button>
+            </section>
+        </div>
+
+    </body>
+</html>
