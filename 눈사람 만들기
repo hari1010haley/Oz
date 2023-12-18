@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lnag = "ko">
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>눈사람 만들기</title>
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            body {background: lightblue; display: flex; 
+            align-items: center; justify-content: center;
+            height: 300px;margin: 0;}
+            .snowman {
+             width: 300px;}
+            .hat .top{width: 50px; height: 30px; margin:0;background:black;
+                z-index: 10;}
+            .hat .bottom{width: 80px;height: 20px;margin:0;background:black;
+                z-index: 9;}
+
+            .head{display: inline-block, z-index: 8;}
+            .head .face{width:80px; height:80px; margin:0; 
+                background:white; border-radius:60%; position:relative;}
+            .head .eye1{width:10px; height:14px; margin:0;
+                background:black; border-radius:60%; position:absolute;
+            top: 20px; left: 20px;}
+            .head .eye2{width:10px; height:14px; margin:0;
+                background:black; border-radius:60%; position:absolute;
+            top: 20px; right: 20px;}
+            .head .mouse{width:30px; height:10px; margin:0;
+            background:pink; border-radius: 0 0 50% 50%; 
+            bottom:20px; left:30%; position:absolute;}
+            .butock{
+            height:200px; display: inline-block; z-index:7;
+            }
+            .butock .trunk{
+            width:120px; height:120px; margin:0;
+            background:white; border-radius:60%; position:relative;
+            }
+            .butock > .trunk > .arm1,
+            .butock > .trunk > .arm2 {width: 30px; height: 3px;
+            background: goldenrod; position: absolute;
+            }
+            .butock > .turnk > .arm1 {left: -40px; top:80px;
+            transform-origin: bottom left; transform: rotate(45deg);
+            }
+            .butock > .trunk > .arm2 {right: -40px; top:80px;
+            transform-origin: bottom right; transform: rotate(-45deg);
+            }
+            .butock > .trunk > .dot{ width:10px; height:10px; 
+                position: absolute; top: 70px; left: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="snowman">
+         <div class="hat">
+                <div class="top">
+                </div>
+                <div class="bottom">
+                </div>
+            </div>
+            <div class="head">
+                <div class="face">
+                    <div class="eye1"></div>
+                    <div class="eye2"></div>
+                    <div class="mouse"></div>
+                </div>
+            </div>
+            <div class="butock">
+                <div class="trunk">
+                    <div class="arm1"></div>
+                    <div class="arm2"></div>
+                    <div class="dot">X</div>
+                </div>
+            </div>
+          </div>
+    </body>
+</html>
