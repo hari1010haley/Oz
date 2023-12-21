@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사용자 정보 입력받기</title>
+</head>
+<body>
+    <h1 class="name"></h1>
+    <p class="hobby" style="color:red"></p>
+    <p class="song"></p>
+
+    <script>
+        const name_data = document.querySelector(".name")
+        const hobby_data = document.querySelector(".hobby")
+        const song_data = document.querySelector(".song")
+
+        let name = prompt(`이름을 입력해주세요.`)
+        name_data.textContent = name
+
+        let hobby = prompt( `당신의 취미를 알려주세요.`)
+        hobby_data.textContent = ` 취미는 ${hobby} 입니다! ` 
+
+        song_data.textContent = `요즘 자주 듣는 곡은 ${ prompt("요즘 자주 듣는 곡은?") } 입니다.`
+
+    </script>
+    
+</body>
+</html>
