@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리 동네에서 찾는 더덕알바</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 16px; 
+        }
+        body{
+            margin: 0;
+        }
+        .flex{
+            display: flex;
+        }
+
+        .main{
+            padding: 4rem 0 5rem;
+        }
+
+    </style>
+    <link href="header.css" rel="stylesheet">
+    <link href="info.css" rel="stylesheet">
+    <link href="notice.css" rel="stylesheet">
+    <link href="banner.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container"> 
+        <header class="header">
+            <div class="header-content flex">
+                <div class="header-content__logo">더덕마켓</div>
+                <nav class="header-content__nav">
+                    <ul>
+                        <li> 중고거래 </li>
+                        <li> 동네가게 </li>
+                        <li class="active"> 알바 </li>
+                        <li> 부동산 직거래 </li>
+                        <li> 중고차 직거래</li>
+                    </ul>
+                </nav>
+                <div class="header-content__input flex">
+                     <span class="icon glass">
+                        <input type="button" value="&#128269;">
+                    </span>
+                    <spapn>
+                        <input type="text" class="search" placeholder="물품이나 동네를 검색해보세요.">
+                    </spapn>
+                    <span class="icon menu">
+                        <input type="button" value="&#9776;">
+                    </span>
+                    <span>
+                        <input type="button" class="chat" value="채팅하기">
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <main class="main"> 
+            <section class="info">
+                <div class="info__text">
+                    <h1>우리동네에서 찾는<br> 더덕알바</h1>
+                    <p>걸어서 10분 거리의<br> 동네알바들 여기 다 있어요.</p>
+                </div>
+            </section>
+            <section class="notice">
+                <h2 class="notice__title">인기 더덕알바</h2>
+                <div class="notice__container flex">
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="banner flex">
+                    <div class="banner__text">더덕알바 이용방법이 궁굼하다면<br>지금 바로 알아보세요!</div>
+                    <button class="banner__button">이용방법 알아보기</button>
+                </div>
+                <div class="notice__container flex">
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                    <article class="notice__item flex">
+                        <div class="notice__thumb"></div>
+                        <div class="notice__content">
+                            <div class="notice__content__title"> 더덕마켓 고객센터 단기 계약직 모집(1달 계약직)</div>
+                            <div class="notice__content__address"> 주식회사 더덕서비스- 대전광역시 더덕구 석봉동</div>
+                            <div class="notice__content__pay">월급 3,000,000</div>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="banner flex">
+                    <div class="banner__text">더덕알바 이용방법이 궁굼하다면<br>지금 바로 알아보세요!</div>
+                    <button class="banner__button">이용방법 알아보기</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <section class="footer__menu">
+                    <div class="footer__apps">
+                        <div class="footer__appdown">더덕마켓 앱 다운로드</div>
+                        <div class="footer__appbtn flex">
+                            <button>App Store</button>
+                            <button>Google Play</button>
+                        </div>
+                    </div>
+                    <nav class="footer__nav flex">
+                        <ul>
+                            <li>중고거래</li>
+                            <li>동네가게</li>
+                            <li>더덕알바</li>
+                            <li>부동산 직거래</li>
+                            <li>중고차 직거래</li>
+                        </ul>
+                        <ul>
+                            <li>더덕비즈니스</li>
+                            <li>채팅하기</li>
+                        </ul>
+                        <ul>
+                            <li>자주 묻는 질문</li>
+                            <li>회사 소개</li>
+                            <li>인재 채용</li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="footer__info">
+                    <div>
+                        <strong>대표</strong> 김하림 | <storng> 사업자 번호</storng> 123-45-0067
+                    </div>
+                    <div>
+                        <strong>직업정보제공사업 신고번호</strong> 2023-고양원흥-0011
+                    </div>
+                    <div>
+                        <strong>주소</strong> 고양시 덕양구 원흥동 권율대로 512, 212호 (더덕서비스)
+                    </div>
+                    <div>
+                        <strong>전화</strong> 1588-8851 | <strong>고객문의</strong> cs@service.com
+                    </div>
+                    <P>
+                        <strong>이용약관</strong> &nbsp; &nbsp;
+                        <strong style="color: black;">개인정보처리방침</strong>&nbsp; &nbsp;
+                        <strong>위치기반서비스 이용약관</strong>&nbsp; &nbsp;
+                        <strong>이용자보호 비전과 계획</strong>&nbsp; &nbsp;
+                    </P>
+                </section>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+##header.css
+.header.header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+    color: black;
+}
+.header-content{
+    width: 100%;
+    max-width: 75rem;
+    height: 4rem;
+    padding: 0.75rem 1rem;
+    margin: auto;
+    
+    justify-content: space-between;
+}
+.header-content__logo{
+    color:#8E694B;
+    font-size: 2rem;
+    font-weight: 900;
+
+    height: 1rem;
+    margin-right: 40px;
+    line-height: 40px;
+}
+.header-content__nav{
+    align-items: center;
+    padding: 0 2.5rem 0 0 ;
+    flex-grow: 1;
+}
+.header-content__nav ul{
+    padding: 0;
+    margin: 0; 
+    list-style-type: none;
+}
+.header-content__nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 1.13rem;
+    font-weight: 900;
+}
+.header-content__nav ul li.active{
+    color:#8e694B; 
+}
+.header-content__input{
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content__input .search{
+    width: 18rem;
+    height: 2.5rem;
+    padding: 0.5625rem 0.75rem;
+    background-color: #F2F3F6;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+}
+.header-content__input .chat{
+    line-height: 1.3;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 0.5px solid #C5C6C9;
+    border-radius: 0.25rem;
+    font-weight: 600;
+}
+.header-content__input .icon input{
+    margin-right: 1rem; 
+    border: none;
+    padding: 0;
+    font-size: 1.5 redm;
+    background-color: transparent;
+}
+.header-content__input .icon{
+    display: none;
+}
+
+@media screen and (max-width: 948px){
+    .header-content__input .chat, .header-content__nav{
+        display:none;
+    }
+    .header-content__input .menu{
+        display: block;
+    }
+}
+
+##info.css
+.info{
+    width: 100%;
+    height: 19.6875rem;
+    background-color: #C59B79;
+}
+.info__text{
+    max-width: 48rem;
+    margin: auto;
+    padding: 3rem 1rem 0;
+}
+.info__text h1{
+    margin:0;
+    font-size: 2rem; 
+    line-height: 3.2rem;
+}
+.info__text p{
+    margin: 0.5rem 0 0;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .info{
+        height: 18.375rem;
+    }
+    .info__text{
+        padding: 1.5rem 1rem 0; 
+    }
+    .info__text h1{
+        line-height: 2rem;
+        font-size: 1.5rem;
+    }
+    .info_text p{
+        display: none;
+    }
+}
+
+##notice.css
+.notice{
+    max-width: 48rem;
+    margin: auto;
+}
+.notice__title{
+    font-size: 1.625rem;
+    margin: 3.75rem 0 2.5rem;
+    line-height: 1.5;
+}
+.notice__container{
+    justify-content: space-between;
+    flex-wrap: wrap; /* 플렉스 아이템이 여러줄로 배치될 수 있게끔 ! */ 
+}
+.notice__item{
+    padding: 1.25rem 0;
+    flex-basis: 48%;
+}
+.notice__thumb{
+    min-width: 6.75rem;
+    min-height: 6.75rem;
+    background-color: #8E694B;
+}
+.notice__content{
+    margin-left: 1rem;
+}
+
+.notice__content__title{
+    line-height: 1.32;
+    font-size: 1.125rem;
+}
+.notice__content__address{
+    line-height: 1.4;
+    font-size: .875rem;
+    color: #aeaeae;
+}
+.notice__content__pay{
+    font-weight: 700;
+}
+
+@media screen and(max-width 768px) {
+    .notice{
+        padding: 0 1rem 1.25rem;
+    }
+    .notice__title{
+        font-weight: 700;
+        line-height: 1.3;
+        font-size: 1.25rem;
+        margin: 2.5rem 0 1.5rem;
+    }
+    .notice__container{
+        display:block;
+    }
+}
+
+##banner.css
+.banner{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E5F5FD;
+    margin: 2.75rem 0 4rem;
+    padding: 1.75rem 1.5rem 1.75rem 2.0625rem;
+}
+.banner__text{
+    line-height: 1.3;
+    font-size: 1.24rem;
+    font-weight: 900;
+}
+.banner__button{
+    margin: 0;
+    padding: 0.5rem 0.625rem;
+    line-height: 1.4;
+    background-color: #8E694B;
+    color: #FFFFFF;
+    border: none; 
+    border-radius: 0.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .banner{
+        display: block;
+    }
+    .banner__text{
+        line-height: 1.3;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .banner__button{
+        margin: 0.75rem 0 0;
+    }
+}
+
+## footer.css
+.footer{
+    color:#515255;
+    border-top: 1px solid #C3C4C7;
+    padding: 0 1rem;
+}
+.footer__container{
+    max-width: 48rem;
+    margin: auto;
+}
+.footer__menu{
+    padding: 3rem 0;
+}
+.footer__apps{
+    float: right;
+}
+.footer__appdown{
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.footer__appbtn{
+    width: 18.75rem;
+    justify-content: space-between;
+}
+.footer__appbtn button{
+    width: 48%;
+    height: 2.75rem;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer__nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 33%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-size:0.875rem;
+}
+.footer__nav ul:nth-child(3){
+    margin-right: 15%;
+}
+.footer__nav ul li{
+    margin-bottom: 1rem;
+}
+
+.footer__info{
+    padding: 1.5rem 0 6.25rem;
+    border-top: 1px solid #C3C4C7;
+    color:#868B94;
+    line-height: 1.5;
+    font-size: .813rem;
+}
+
+@media screen and (max-width: 768px){
+    .footer__apps{
+        float: none;
+        display: flex;
+        margin-bottom: 1.25rem;
+    }
+    .footer__appbtn{
+        display: none;
+    }
+}
