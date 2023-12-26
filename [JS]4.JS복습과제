@@ -1,0 +1,43 @@
+1. DOM메소드를 이용해 Background-color를 변경하기
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경색 바꾸기</title>
+    <style>
+        button{
+            font-size: 16px;
+            padding: 8px 16px; 
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <script>
+        const whitebutton = document.createElement("button")
+        whitebutton.textContent = "white"
+        document.body.append(whitebutton)
+
+        const blackbutton = document.createElement("button")
+        blackbutton.textContent = "black"
+        document.body.append(blackbutton)
+
+        whitebutton.addEventListener("click", function(){
+            document.body.style.backgroundColor = "black"
+        })
+
+        blackbutton.addEventListener("click", function(){
+            document.body.style.backgroundColor = "white"
+        })
+
+    </script>
+</body>
+</html>
+
+2. 캐러셀을 이용해 페이지 전환
+
+
+3. 회원가입 폼에서 양식 받기 
