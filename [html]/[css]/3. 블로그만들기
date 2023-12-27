@@ -8,20 +8,23 @@
 </head>
 <body>
     <h1 textstyle="strong">힐링케어 필라테스</h1>
-    <img src="옥피치1.jpeg" alt="대표" width="500px" height="500px">
-    <br>
+    <hr>
+    <img src="대표이미지.jpeg" alt="대표" width="500px" height="500px">
+    <hr>
     <div type="container">
-        <ul> 
-            <div>라운드숄더</div>
-            <div>복근운동</div>
-            <div>허벅지돌려깎기</div>
-            <div>멘즈</div>
-            <div>키즈</div>
-            <div>실버</div>
-            <div>허리튜브정리</div>
+        <ul><em>
+                <div>라운드숄더</div>
+                <div>복근운동</div>
+                <div>허벅지돌려깎기</div>
+                <div>허리튜브정리</div>
+                <div>멘즈</div>
+                <div>키즈</div>
+                <div>실버</div>
+                <div>산전/산후</div>
+            </em> 
         </ul>
     </div>
-    <div textstyle="mark">📞등록문의: 010-8443-0000</div>
-    
+    <br>
+    <div><mark>📞등록문의: 010-8443-0000</mark></div>
 </body>
 </html>
