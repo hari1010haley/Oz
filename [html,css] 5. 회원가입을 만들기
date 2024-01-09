@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입을 만들기</title>
+</head>
+<body>
+    <h1>오즈 코딩스쿨 회원가입</h1>
+    <label id="mail"> 이메일:
+        <input type="text" placeholder="이메일을 입력해주세요.">
+    </label><br>
+    <label id="name"> 이름: 
+        <input type="text" placeholder="이름을 입력해주세요.">
+    </label><br>
+    <label id="pw"> 비밀번호: 
+        <input type="text" placeholder="비밀번호를 입력해주세요.">
+    </label><br>
+    <label id="re-pw"> 비밀번호 확인:
+        <input type="text" placeholder="비밀번호를 다시 입력해주세요."
+    </label><br>
+    <label id="phone">
+        전화번호:
+        <input type="number">-<input type="number">-<input type="number"><br>
+        000000<br>
+        <button type="sumbit">인증번호 전송</button><br>
+        3:00<br>
+        <button type="submit">인증확인</button>
+    </label><br>
+    <label id="where"> 지역: 
+        <select id="region">
+            <option disabled selected>지역을 선택해주세요.</option>
+            <option value="region1">서울</option>
+            <option value="region2">경기</option>
+            <option value="region3">강원도</option>
+            <option value="region4">충청도</option>
+            <option value="region5">경상도</option>
+            <option value="region6">부산</option>
+            <option value="region7">인천</option>
+        </select><br>
+    </label>
+    <label id="gender"> 성별: 
+        <input type="radio" name="gender">여자
+        <input type="radio" name="gender">남자
+    </label>
+    <hr>
+    <button type="submit">가입하기</button>
+</body>
+</html>
